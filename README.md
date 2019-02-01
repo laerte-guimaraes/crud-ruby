@@ -1,3 +1,5 @@
+# TIPS
+
 ````rails
 route to:
 ````
@@ -17,7 +19,7 @@ Ex:
 resources :tasks
 ````
 
-### Cria as rotas:
+Cria as rotas:
 
 |  Verbo HTTP |     Caminho     | Controller#Action |                       Uso                      |
 |-------------|-----------------|-------------------|------------------------------------------------|
