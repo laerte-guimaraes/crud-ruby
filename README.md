@@ -2,13 +2,13 @@
 
 ## ROUTING
 ````rails
-route to: '@controller#@view'
+root to: '@controller#@view'
 ````
 Define a default view path for this app
 
 Ex:
 ````rails
-route to: 'home#welcome'
+root to: 'home#welcome'
 ````
 
 ## 
