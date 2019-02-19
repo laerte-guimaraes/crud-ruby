@@ -14,6 +14,19 @@ root to: 'home#welcome'
 ## 
 
 ````rails
+@http_verb '/path', to: '@controller#@action'
+````
+Define a custom route for Controller#Action 
+
+Ex:
+````rails
+get '/home', to: 'home#index'
+post '/tasks', to: 'tasks#new'
+````
+
+## 
+
+````rails
 resources
 ````
 
