@@ -55,7 +55,7 @@ Will create this routes:
 ## REFERENCING AND CARDINALITY
 To reference tables (add a foreign key for example), its necessary execute one migration using:
 ````rails
-rails generate migration add_@model1_to_@model2 @model2:references
+rails generate migration add_@model2_to_@model1 @model2:references
 ````
 
 Ex:
